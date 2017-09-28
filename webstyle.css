@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section{
+	display: block;
+}
+
+html, body, h1, h2, h3, h4, h5, ul, li, a, p, 
+article, aside, footer, header, main, nav, section{
+	padding:0;
+	margin:0;
+}
+
+/*Index*/
+.pgtitle{
+	background-color: #111;
+	color: #e0d490;
+	padding: 25px 50px;
+	font-family: Times New Roman;
+	text-shadow: 1px 1px grey;
+}
+
+body{
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #8C001A;
+}
+
+.fsuheading{
+	padding-left: 30px;
+}
+
+/*************************TopNav**********************/
+
+.topnav{
+	background-color: #111;
+	margin-top:3px;
+	padding: 5px;
+
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+
+}
+
+.topnav li a{
+ 	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 75px;
+    text-decoration: none;
+	
+}
+
+.topnav li{
+	float: left;
+	
+}
+
+.topnav li a:hover {
+    background-color: #e0d490;
+}
+
+.topactive{
+	background-color: #65000B;
+}
+/**********************SideNav********************/
+
+.sidediv{
+	background-color: #e0d490;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top:5px;
+    padding: 0;
+    width: 15%;
+    background-color: #e0d490;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+    max-height: none;
+}
+
+.greet{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+
+
+
+.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 20px 0 15px 16px;
+    text-decoration: none;
+
+}
+
+.sidenav li a:hover{
+	background-color:#111;
+	color:white;
+}
+
+/********************main*************************/
+section{
+	background:#111;
+	float:right;
+	margin:5px;
+	padding-left:20px;
+	width: 82.5%;
+	color:#e0d490;
+}
+
+.sectionhd{
+	padding-top: 20px;
+}
+
+article{
+	background-color: #e0d490;
+	color:black;
+	padding: 20px;
+	margin:20px;
+}
+
+.articlehd{
+	padding: 20px;
+}
+
+.pformat{
+	padding: 15px;
+}
+
+/**********footer**********************/
+footer{
+	background-color: #111;
+	clear:both;
+	padding: 20px;
+
+}
+
+.quickhd{
+	color: #e0d490;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.botnav li{
+	display: inline;
+
+}
+
+.botnav li a{
+	color:white;
+	text-decoration: none;
+	padding:10px;
+	font-weight: bold;
+	border
+}
+/******************************************/
+
+/*login page*/
+
+.fieldbox{
+	background-color: #e0d490;
+	margin-top:10px;
+	float:left;
+	height: 200px;
+	padding: 20px;
+}
+
+.loginhd{
+	padding: 20px;
+	font-size:35px;
+}
+
+.form1{
+	height:20px;
+	width:300px;
+	font-size:18px;
+}
+
+.form2{
+	height:30px;
+	width:100px;
+	font-size:12px;
+}
+
+#username{
+	margin-bottom: 10px;
+}
+
+#loginpic{
+	float: left;
+	height: 600px;
+	width: 700px;
+	padding-left: 130px;
+
+}
+
+/************************************/
+
+/*Register*/
+
+#fieldboxr{
+	background-color: #e0d490;
+	margin:10px;
+	float:right;
+	height: 400px;
+	width:600px;
+	padding: 20px;
+
+}
+
+.ipform{
+	height:35px;
+	width:250px;
+	font-size: 18px;
+	font-family: Times New Roman;
+}
+
+
+/*About*/
+.articlep1{
+	float:left;
+}
+
+.articlep2{
+	float:right;
+}
+
+.articlesub{
+	padding-left:40px;
+}
+
+/*Contact*/
+#contactarticle{
+	padding-bottom: 500px;
+}
+
+
+
+
+
+
+
+
